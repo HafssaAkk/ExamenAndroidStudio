@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#100E10"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:text="Editer Produit :"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:id="@+id/spin"></Spinner>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#B3C89B"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/lib"
+        android:hint="Libelle :"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#B3C89B"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/fam"
+        android:hint="Famille"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#B3C89B"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/pra"
+        android:inputType="numberDecimal"
+        android:hint="Prix Achat :"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#B3C89B"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/prv"
+        android:inputType="numberDecimal"
+        android:hint="Prix Vente :"/>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#3F51B5"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:id="@+id/edit"
+        android:text="Editer"/>
+</LinearLayout>
